@@ -6,8 +6,8 @@ for i in range(n):
     name = input("Enter Student Name: ")
     marks = int(input("Enter Marks: ")
     s = (sid, name, marks)
-    students = students + (s,)	using (s,) -> ((1, "Ram", 90), (2, "Sam", 85))
-				using (s)  -> (1, "Ram", 90, 2, "Sam", 85)
+    students = students + (s,)	
+	
 print("\nAll Student Records:")
 for r in students:
     print("ID:", r[0], "Name:", r[1], "Marks:", r[2])
