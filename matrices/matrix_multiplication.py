@@ -1,7 +1,7 @@
 print("MATRIX 1")
 r1 = int(input("Enter the number of rows: "))
 c1 = int(input("Enter the number of columns: "))
-#r1,c1 = map(int,input(“Enter no. of rows and columns: ”).split())
+#r1,c1 = map(int,input(â€œEnter no. of rows and columns: â€).split())
 a = []
 print("Enter the elements: ")
 for i in range(r1):
